@@ -21,7 +21,7 @@ The key features of this project are:
 - `src/agente_spesa_ai/agent.py` — builds the prompt, calls the LLM, and dispatches the parsed function call.
 - `src/agente_spesa_ai/functions.py` — the shopping list operations (add, remove, view, clear).
 - `pyproject.toml` / `poetry.lock` — project dependencies, managed with Poetry.
-- `Relazione.pdf` — project report (Italian).
+- `project_report.pdf` — project report (Italian).
 
 ## How to Run
 Requires [Ollama](https://ollama.com) installed locally with the `mistral` model pulled (`ollama run mistral`).
